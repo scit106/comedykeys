@@ -11,6 +11,7 @@ h1, h2, h3, h4, h5, h6, p {
 /******* header styles ***********/
 h2 {
 	font-size: 36px;
+	padding-bottom: 20px;
 }
 
 /*********** Fonts ****************/
@@ -23,10 +24,14 @@ h2 {
 }
 
 .bold {
-	font-weight: bold;
+	font-weight: 700;
 }
 
 .light {
+	font-weight: 300;
+}
+
+.extra-light {
 	font-weight: 200;
 }
 
@@ -77,6 +82,10 @@ h2 {
 	display: inline-block;
 }
 
+.align-center {
+	text-align: center;
+}
+
 /******* Flexbox Utilities *******/
 /*** Parent ***/
 .flex {
@@ -93,11 +102,23 @@ h2 {
 	flex-direction: column;
 }
 
+.flex-align-outside {
+	justify-content: space-between;
+}
+
+/*** children ***/
+.align-end {
+	align-self: flex-end;
+}
 
 /********* Content Areas ********/
 
 .section {
 	padding: 60px 15%;
+}
+
+.section p {
+	padding-bottom: 10px;
 }
 
 .episode {
@@ -121,4 +142,20 @@ h2 {
 	padding: 5px 10px 5px 30px;
 	font-size: 24px;
 	box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.menu {
+	padding: 10px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #403f41;
+	font-size: 18px;
+	font-weight: 200;
+	padding: 0px 5px;
+}
+
+.menu a:hover {
+	color: #d4d3d4;
 }
