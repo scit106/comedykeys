@@ -177,3 +177,19 @@ h2 {
 #contact a:hover {
 	color: #320a5c;
 }
+
+/****** Responsive! ******/
+@media (max-width: 600px) {
+	.hero-image {
+		background-image: url('./logo.jpg');
+		height: auto;
+		width: 100%;
+		padding-top: 100%;
+		background-size: contain;
+	}
+	.tagline {
+		top: 30px;
+		bottom: auto;
+		font-size: 18px;
+	}
+}
