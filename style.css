@@ -82,6 +82,10 @@ h2 {
 	display: inline-block;
 }
 
+.block {
+	display: block;
+}
+
 .align-center {
 	text-align: center;
 }
@@ -106,6 +110,10 @@ h2 {
 	justify-content: space-between;
 }
 
+.flex-align-even {
+	justify-content: space-around;
+}
+
 /*** children ***/
 .align-end {
 	align-self: flex-end;
@@ -125,6 +133,7 @@ h2 {
 	border: 1px solid rgb(200, 200, 200);
 	padding: 10px 2%;
 	margin-top: 10px;
+	box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.2);
 }
 
 /******** Specific styles *******/
@@ -158,4 +167,13 @@ h2 {
 
 .menu a:hover {
 	color: #d4d3d4;
+}
+
+#contact a {
+	text-decoration: none;
+	color: #403f41;
+}
+
+#contact a:hover {
+	color: #320a5c;
 }
