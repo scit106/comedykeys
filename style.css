@@ -1,0 +1,124 @@
+/*********** HTML Overrides *********/
+
+body {
+	margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+
+/******* header styles ***********/
+h2 {
+	font-size: 36px;
+}
+
+/*********** Fonts ****************/
+.sans-font {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.light {
+	font-weight: 200;
+}
+
+/********** Colors ***************/
+
+.purple {
+	color: #320a5c;
+}
+
+.purple-background {
+	background-color: #320a5c;
+}
+
+.white {
+	color: #FFFFFF;
+}
+
+.white-background {
+	background-color: #FFFFFF;
+}
+
+.v-light-grey {
+	color: #fafafa;
+}
+
+.v-light-grey-background {
+	background-color: #fafafa;
+}
+
+.med-grey {
+	color: #d4d3d4;
+}
+
+.med-grey-background {
+	background-color: #d4d3d4;
+}
+
+.dark-grey {
+	color: #403f41;
+}
+
+.dark-grey-background {
+	background-color: #403f41;
+}
+
+/******** General Utilities *********/
+.inline-block {
+	display: inline-block;
+}
+
+/******* Flexbox Utilities *******/
+/*** Parent ***/
+.flex {
+	display: flex;
+}
+
+.flex-align-center {
+	align-items: center;
+	flex-direction: column;
+}
+
+.flex-align-right {
+	align-items: flex-end;
+	flex-direction: column;
+}
+
+
+/********* Content Areas ********/
+
+.section {
+	padding: 60px 15%;
+}
+
+.episode {
+	border: 1px solid rgb(200, 200, 200);
+	padding: 10px 2%;
+	margin-top: 10px;
+}
+
+/******** Specific styles *******/
+
+.hero-image {
+	background-image: url('./banner.jpg');
+	height: 600px;
+	background-position: right;
+	position: relative;
+}
+
+.tagline {
+	position: absolute;
+	bottom: 30px;
+	padding: 5px 10px 5px 30px;
+	font-size: 24px;
+	box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.2);
+}
