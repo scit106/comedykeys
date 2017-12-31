@@ -119,6 +119,10 @@ h2 {
 	align-self: flex-end;
 }
 
+.align-start {
+	align-self: flex-start;
+}
+
 /********* Content Areas ********/
 
 .section {
@@ -179,6 +183,14 @@ h2 {
 .max-width-container {
 	max-width: 1200px;
 	margin: auto;
+}
+
+.itunes-badge {
+	display: block;
+	background-image: url('Get_it_on_iTunes_Badge_US_1114.svg');
+	height: 40px;
+	width: 110px;
+	background-repeat: no-repeat;
 }
 
 /****** Responsive! ******/
